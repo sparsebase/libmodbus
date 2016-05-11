@@ -36,13 +36,21 @@
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+<<<<<<< HEAD
     <ConfigurationType>Application</ConfigurationType>
+=======
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+>>>>>>> 92475ac6e7c31d4c834d5b36b7aeb731b12b632a
     <PlatformToolset>v120</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+<<<<<<< HEAD
     <ConfigurationType>Application</ConfigurationType>
+=======
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+>>>>>>> 92475ac6e7c31d4c834d5b36b7aeb731b12b632a
     <PlatformToolset>v120</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
@@ -119,7 +127,12 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+<<<<<<< HEAD
       <Version>1.0.0</Version>
+=======
+      <Version>
+      </Version>
+>>>>>>> 92475ac6e7c31d4c834d5b36b7aeb731b12b632a
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <GenerateMapFile>true</GenerateMapFile>
       <SubSystem>Console</SubSystem>
@@ -195,6 +208,10 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <CompileAs>CompileAsC</CompileAs>
       <DisableSpecificWarnings>4244;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+<<<<<<< HEAD
+=======
+      <PreprocessorDefinitions>DLLBUILD;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+>>>>>>> 92475ac6e7c31d4c834d5b36b7aeb731b12b632a
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -202,6 +219,10 @@
       <StackReserveSize>1048576</StackReserveSize>
       <StackCommitSize>524288</StackCommitSize>
       <TargetMachine>MachineX64</TargetMachine>
+<<<<<<< HEAD
+=======
+      <AdditionalDependencies>ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+>>>>>>> 92475ac6e7c31d4c834d5b36b7aeb731b12b632a
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -227,6 +248,10 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <CompileAs>CompileAsC</CompileAs>
       <DisableSpecificWarnings>4244;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+<<<<<<< HEAD
+=======
+      <PreprocessorDefinitions>DLLBUILD;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+>>>>>>> 92475ac6e7c31d4c834d5b36b7aeb731b12b632a
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -237,6 +262,10 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <LinkTimeCodeGeneration />
       <TargetMachine>MachineX64</TargetMachine>
+<<<<<<< HEAD
+=======
+      <AdditionalDependencies>ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+>>>>>>> 92475ac6e7c31d4c834d5b36b7aeb731b12b632a
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
