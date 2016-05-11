@@ -42,3 +42,14 @@ tests/stamp-h2
 doc/*.html
 doc/*.3
 doc/*.7
+*.dll*
+*.exp
+*.map
+*.pdb
+*.sdf
+*.opensdf
+*.suo
+src/win32/*.htm
+Debug
+Release
+src/win32/*.lib
